@@ -14044,6 +14044,8 @@ a.text-dark:focus {
   --bg-light: rgba(147, 107, 232, 0.05);
   --iframe-filter: grayscale(0%);
   --widget-bg: #231f20;
+  --icon-color: #fff;
+  --icon-hover-color: #FF621A;
 }
 
 [data-theme="dark"] {
@@ -14059,6 +14061,8 @@ a.text-dark:focus {
   --dropdown-color: #191c1d;
   --iframe-filter: grayscale(100%);
   --widget-bg: #131617;
+  --icon-color: #fff;
+  --icon-hover-color: #fff;
 }
 
 .noscroll {
