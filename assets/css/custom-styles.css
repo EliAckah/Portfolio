@@ -1,0 +1,40 @@
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  border-radius: 10px;
+  transition: all 0.8s ease-in;
+}
+.custom-what-we-do-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+  background-color: #ff621a;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 70% 30% 30% 70% / 60% 40%;
+  transition: all 0.8s ease-in;
+}
+.custom-what-we-do-icon {
+  font-size: 30px;
+  color: #fff;
+}
+.custom-card:hover {
+  border-radius: 10% 10% 0 0;
+}
+.custom-card:hover .custom-what-we-do-icon-box {
+  background: transparent;
+  border: 2px solid #ff621a;
+  border-radius: 50%;
+  padding: 10px;
+  width: 75px;
+  height: 75px;
+}
+.custom-what-we-do-text {
+  margin: 25px 0;
+}
